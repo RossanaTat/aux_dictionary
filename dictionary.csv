@@ -38,10 +38,12 @@ population,Total population in year
 gdp,Gross Domestic Product
 hfce,Household Final Consumption Expenditure
 is_interpolated,"1 if data for that year is interpolated for global estimates purposes, 0 if it's a survey year"
-distribution_type,"Underlying distribution of welfare (aggretate, grouped, imputed, or micro data)"
+distribution_type,"Underlying distribution of welfare (aggretate, grouped, imputed, synthetic or micro data)"
 pop_in_poverty,Population in poverty
-spr,Poverty headcount ratio at societal poverty line (% of population)
-pg,Prosperity Gap. Average factor by which incomes fall short of the prosperity threshold.
+spl,Societal Poverty Line
+spr,Societal Poverty Rate. Poverty headcount ratio at societal poverty line (% of population)
+pg,Prosperity Gap. Average factor by which incomes fall short of the prosperity threshold
+estimate_type,"Whether reported estimate is actual, projection, or nowcast"
 headcount_ipl,Proportion (%) of the population living below the international poverty line (IPL)
 headcount_lmicpl,Proportion (%) of the population living below the lower-middle income poverty line (LMIPL)
 headcount_umicpl,Proportion (%) of the population living below the upper-middle income poverty line (UMIPL)
@@ -76,4 +78,3 @@ mpm_sanitation,"Multidimensional poverty, Sanitation (% of population deprived)"
 mpm_water,"Multidimensional poverty, Drinking water (% of population deprived)"
 mpm_monetary,"Multidimensional poverty, Monetary poverty (% of population deprived)"
 mpm_headcount,"Multidimensional poverty, Headcount ratio (% of population)"
-,
